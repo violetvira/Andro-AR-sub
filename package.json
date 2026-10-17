@@ -1,23 +1,15 @@
 {
-  "name": "andro-arabic-subtitles",
-  "version": "1.1.0",
-  "description": "ANDRO \u2014 automatic, in-sync Arabic subtitles for every movie & series on Stremio. Free & open source.",
-  "main": "server.js",
+  "name": "andro-stremio-mobile",
+  "version": "2.1.0",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
-  "engines": {
-    "node": ">=18"
-  },
-  "keywords": [
-    "stremio",
-    "stremio-addon",
-    "subtitles",
-    "arabic",
-    "translate",
-    "opensubtitles"
-  ],
-  "author": "Andro",
-  "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "axios": "^1.7.7",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "iconv-lite": "^0.6.3"
+  }
 }
